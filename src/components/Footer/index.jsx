@@ -94,10 +94,12 @@ function Footer() {
                     <NavLink href="#projects">Projects</NavLink>
                     <NavLink href="#education">Education</NavLink>
                 </Nav>
-                <SocialMediaIcons>
-                    <SocialMediaIcon href={Bio.github} target="display"><FaGithub/></SocialMediaIcon>
-                    <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-                </SocialMediaIcons>
+                <SocialMediaIcon href={Bio.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <FaGithub />
+                    </SocialMediaIcon>
+                    <SocialMediaIcon href={Bio.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                 <LinkedInIcon />
+               </SocialMediaIcon>
                 <Copyright>
                     &copy; 2025 - Kiran Maddireddy. All rights reserved.
                 </Copyright>
